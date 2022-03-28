@@ -84,7 +84,7 @@ helm upgrade --install \
 | gpu.nvidia.runtimeClassName | string | `nil` | Overrides the default runtimeClassName |
 | image.pullPolicy | string | `"IfNotPresent"` | Docker image pull policy |
 | image.repository | string | `"blakeblackshear/frigate"` | Docker registry/repository to pull the image from |
-| image.tag | string | `"0.9.4-amd64"` | Overrides the default tag (appVersion) used in Chart.yaml |
+| image.tag | string | `"0.10.1-amd64"` | Overrides the default tag (appVersion) used in Chart.yaml |
 | imagePullSecrets | list | `[]` | Docker image pull policy |
 | ingress.annotations | object | `{}` | annotations to configure your Ingress. See your Ingress Controller's Docs for more info. |
 | ingress.enabled | bool | `false` | Enables the use of an Ingress Controller to front the Service and can provide HTTPS |
